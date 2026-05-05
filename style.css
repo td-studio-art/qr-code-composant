@@ -1,0 +1,42 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      width: 100%;
+      height: 100vh;
+      background-color: #D5E1EF;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card-one{
+        position: relative;
+        width: 320px;
+        height: 499px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 16px 16px 40px 16px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .card-one .qr-code{
+      width: 100%;
+      height: 288px;
+      border-radius: 10px;
+    }
+    .txto h3{
+        text-align: center;
+        font-weight: 700;
+        color: #1f3251;
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    .txto p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        color: #68778d;
+    }
